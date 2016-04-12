@@ -1,0 +1,19 @@
+Begin "settings"
+	AnimateCursor no
+	WaitStableScreen Yes
+End
+//Safari browser open Pricerunner
+Call "scripts/OpenPricerunner.txt"
+//Searching for Adidas Stan Smith and then filter material and color.
+Call "scripts/SearchPricerunner.txt"
+//Sorting by cheapest price.
+Call "scripts/MissionCheap.txt"
+Timestamp
+Set date "{Timestamp}"
+ClearLog "/Applications/JAutomate/scripts/log.csv"
+ Log "/Applications/JAutomate/scripts/log.csv" , "Test  Pricerunner executed: "  
+ Log "/Applications/JAutomate/scripts/log.csv" , "{date}"
+ Log "/Applications/JAutomate/scripts/log.csv" , "Name: " "Robert "  "Persson"
+
+
+

@@ -1,0 +1,7 @@
+Begin "Find cheapest shoe"
+	MouseMove "{ImageFolder}/1460452957115.png"
+
+	WaitVerify "{ImageFolder}/1460452995578.png" 6 22 76 110
+	Click "{ImageFolder}/1460453331481.png" 14 73
+End
+	

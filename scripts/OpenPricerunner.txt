@@ -1,0 +1,4 @@
+Begin "Open pricerunner"
+StartWeb "http://www.pricerunner.se"
+WaitVerify "{ImageFolder}/1460450065760.png"
+End

@@ -1,0 +1,24 @@
+Begin "search"
+	Write "adidas stan smith [ENTER]"
+	WaitVerify "{ImageFolder}/1460451432072.png"
+	
+	MouseScroll -20
+	Click "{ImageFolder}/1460460408007.png" 2 57 235 35
+	
+	WaitVerify "{ImageFolder}/1460460782653.png" 0 0 91 37
+	
+	Click "{ImageFolder}/1460451580137.png" 25 42
+	
+	WaitVerify "{ImageFolder}/1460452431053.png"
+	
+	MouseScroll -25
+	Click "{ImageFolder}/1460452221800.png"
+	WaitVerify "{ImageFolder}/1460460880501.png"
+	
+	Click "{ImageFolder}/1460452293214.png" 32 57
+	WaitVerify "{ImageFolder}/1460452537916.png"
+End
+
+
+
+
